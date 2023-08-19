@@ -40,8 +40,8 @@ function Projects() {
               isBlog={false}
               title="Codeial"
               description="Global Chat Room or Workspace to share resources and hangout with friends build with NodeJS, MongoDB,ExpressJS. Have features which allows user for realtime messaging,  posting any texts as well as supports reactions on messages via commenting on them and even liking them too."
+              ghlink="https://github.com/Ritiksinglait/socialweb"
               
-              demoLink="https://codeial.ga/"
             />
           </Col>
 
@@ -62,23 +62,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={clear}
-              isBlog={false}
-              title="MY-TODO"
-              description="A task scheduler web app. User can store his/her tasks in app for remainder of that tasks till whenever he/she wants . This web app is build using NodeJS and MongoDB "
-              ghLink="https://github.com/Ritiksinglait/ToDo-WebApp"
-              demoLink="https://task-scheduler-webapp.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={ecommerce}
               isBlog={false}
               title="E-KART"
               description="This is a module of a complete E-commerce Website build with ReactJS ,Firebase.In E-Kart user can add or delete the products that he/she wants to buy in future."
               ghLink="https://github.com/Ritiksinglait/e-commerce-website"
-              
+              demoLink="https://ekartwebdev.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clear}
+              isBlog={false}
+              title="Eazyhand"
+              description="This is a web app which helps user to convert any typed document into handwritten format . It can be used drastically in education field. It helps in documenting typed files in more appealing manner."
+              ghLink="https://github.com/Ritiksinglait/EazyHand"
+              demoLink="https://eazyhand.netlify.app/"
             />
           </Col>
 
